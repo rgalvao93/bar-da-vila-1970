@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar da Vila 1970 — Boteco na Vila das Belezas desde 1970</title>
+  <meta name="description" content="Bar da Vila 1970: boteco de vila em São Paulo desde 1970. Cerveja gelada, porções, futebol na TV e eventos. Rua Coronel Luís Schimidt, 219 — Vila das Belezas.">
+  <meta name="theme-color" content="#F5F4EF">
+  <link rel="icon" type="image/png" href="docs/logo-transparente.png">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Bar da Vila 1970">
+  <meta property="og:description" content="Boteco de vila desde 1970. Cerveja gelada, porções, futebol na TV e eventos na Vila das Belezas, São Paulo.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="docs/logo-transparente.png">
+  <meta property="og:locale" content="pt_BR">
+
+  <!-- Fontes: display condensada anos 70 + sans moderna + mono para etiquetas -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXoo9WlhyyTh89Y.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="https://fonts.gstatic.com/s/jetbrainsmono/v24/tDbv2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKwBNntkaToggR7BYRbKPxDcwgknk-4.woff2" as="font" type="font/woff2" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#principal">Pular para o conteúdo</a>
+
+  <header class="topo" id="topo">
+    <div class="topo-inner">
+      <a class="marca" href="#hero" aria-label="Bar da Vila 1970 — início">
+        <img src="docs/logo-transparente.png" alt="" width="36" height="36">
+        <span class="marca-nome">Bar da Vila <strong>1970</strong></span>
+      </a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+        <span class="menu-toggle-bar"></span>
+      </button>
+
+      <nav class="menu" id="menu" aria-label="Navegação principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato" class="menu-cta">Como chegar</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="principal">
+
+    <!-- 1. HERO -->
+    <section class="hero" id="hero">
+      <span class="hero-1970" aria-hidden="true">1970</span>
+      <div class="hero-inner">
+        <div class="hero-placa" aria-hidden="true">
+          <img src="docs/logo-transparente.png" alt="" width="220" height="220">
+        </div>
+        <p class="hero-eyebrow">Desde 1970 · Vila das Belezas · São Paulo</p>
+        <h1 class="hero-titulo">Bar da <span>Vila</span></h1>
+        <p class="hero-slogan">Boteco de vila de verdade: cerveja gelada, futebol na TV e porção pra dividir.</p>
+        <div class="hero-acoes">
+          <a class="btn btn-primario" href="#cardapio">Ver cardápio</a>
+          <a class="btn btn-secundario" href="#contato">Como chegar</a>
+        </div>
+        <ul class="hero-dados" aria-label="Informações resumidas">
+          <li><strong>55+</strong><span>anos de vila</span></li>
+          <li><strong>4.8 ★</strong><span>no Google</span></li>
+          <li><strong>R$ 40–60</strong><span>preço médio</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. SOBRE -->
+    <section class="secao" id="sobre" aria-labelledby="sobre-titulo">
+      <div class="secao-inner">
+        <p class="secao-eyebrow"><span class="ano">1970</span> — nossa história</p>
+        <div class="sobre-grid">
+          <div>
+            <h2 class="secao-titulo" id="sobre-titulo">O boteco que a vila cresceu vendo</h2>
+            <p class="secao-lead">Meio século de balcão, freguês e futebol de domingo. O Bar da Vila abre as portas na Vila das Belezas desde 1970 — e segue com o mesmo espírito de vila: todo mundo se conhece, a cerveja é gelada e ninguém sai sem um causo.</p>
+            <p>Ponto do bairro para o happy hour, a rodada de sábado e o jogo com os amigos na TV. Cozinha de boteco, atendimento de gente e música boa na agenda — do samba à sofrência.</p>
+            <!-- TODO: substituir texto de história por versão aprovada (pendência no PLANO.md) -->
+          </div>
+          <figure class="sobre-foto">
+            <img src="docs/fotos/balcao.jpg" alt="Balcão de madeira de um bar, com garrafas e plantas" width="1200" height="1600" loading="lazy">
+          </figure>
+          <ul class="sobre-pontos" aria-label="Pontos fortes">
+            <li><span aria-hidden="true">01</span><div><strong>Cerveja sempre gelada</strong><small>Pra sair daqui só depois da segunda garrafa</small></div></li>
+            <li><span aria-hidden="true">02</span><div><strong>Futebol na TV</strong><small>Jogo do coração com a torcida da vila</small></div></li>
+            <li><span aria-hidden="true">03</span><div><strong>Porções de boteco</strong><small>Feitas na hora, tamanho família de vila</small></div></li>
+            <li><span aria-hidden="true">04</span><div><strong>Agenda de eventos</strong><small>Samba, pagode e os clássicos dos anos 70</small></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. DESTAQUES -->
+    <section class="destaques" aria-label="Destaques do bar">
+      <div class="secao-inner">
+        <ul class="destaques-lista">
+          <li><span aria-hidden="true">🍺</span> Cerveja gelada</li>
+          <li><span aria-hidden="true">🕺</span> Eventos</li>
+          <li><span aria-hidden="true">⚽</span> Futebol na TV</li>
+          <li><span aria-hidden="true">🍟</span> Porções</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 4. CARDÁPIO -->
+    <section class="secao" id="cardapio" aria-labelledby="cardapio-titulo">
+      <div class="secao-inner">
+        <p class="secao-eyebrow"><span class="ano">1970</span> — para beber e petiscar</p>
+        <h2 class="secao-titulo" id="cardapio-titulo">Cardápio</h2>
+        <p class="secao-lead">Do chope ao cafezinho depois do almoço. <!-- Itens de exemplo — substituir pelo cardápio real (pendência PLANO.md) --></p>
+
+        <div class="abas" role="tablist" aria-label="Categorias do cardápio" id="abas">
+          <button class="aba is-ativa" id="aba-cervejas" role="tab" aria-selected="true" aria-controls="painel-cervejas">Cervejas</button>
+          <button class="aba" id="aba-drinks" role="tab" aria-selected="false" aria-controls="painel-drinks" tabindex="-1">Drinks</button>
+          <button class="aba" id="aba-porcoes" role="tab" aria-selected="false" aria-controls="painel-porcoes" tabindex="-1">Porções</button>
+          <button class="aba" id="aba-petiscos" role="tab" aria-selected="false" aria-controls="painel-petiscos" tabindex="-1">Petiscos</button>
+          <button class="aba" id="aba-destilados" role="tab" aria-selected="false" aria-controls="painel-destilados" tabindex="-1">Destilados</button>
+          <button class="aba" id="aba-semacool" role="tab" aria-selected="false" aria-controls="painel-semacool" tabindex="-1">Sem álcool</button>
+        </div>
+
+        <!-- Conteúdo de exemplo (placeholders) — ver PLANO.md -->
+        <div class="painel is-ativa" id="painel-cervejas" role="tabpanel" aria-labelledby="aba-cervejas">
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Long neck gelada</strong><span>Brahma, Heineken, Corona</span></div><span class="preco">R$ 10,00</span></li>
+            <li><div class="item"><strong>Litrão</strong><span>Brahma, Antarctica</span></div><span class="preco">R$ 14,00</span></li>
+            <li><div class="item"><strong>600 ml</strong><span>Amstel, Original</span></div><span class="preco">R$ 12,00</span></li>
+            <li><div class="item"><strong>Chope</strong><span>Pilsen ou claro</span></div><span class="preco">R$ 8,00</span></li>
+          </ul>
+        </div>
+
+        <div class="painel" id="painel-drinks" role="tabpanel" aria-labelledby="aba-drinks" hidden>
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Caipirinha</strong><span>Limão ou fruta da estação</span></div><span class="preco">R$ 15,00</span></li>
+            <li><div class="item"><strong>Gin tônica</strong><span>Com limão e zimbro</span></div><span class="preco">R$ 22,00</span></li>
+            <li><div class="item"><strong>Coquetel autoral</strong><span>Receita da casa</span></div><span class="preco">R$ 20,00</span></li>
+          </ul>
+        </div>
+
+        <div class="painel" id="painel-porcoes" role="tabpanel" aria-labelledby="aba-porcoes" hidden>
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Batata frita</strong><span>Crocante, com sal e pimenta</span></div><span class="preco">R$ 28,00</span></li>
+            <li><div class="item"><strong>Mandioca frita</strong><span>Com alho e manteiga</span></div><span class="preco">R$ 26,00</span></li>
+            <li><div class="item"><strong>Frango a passarinho</strong><span>Com alho frito</span></div><span class="preco">R$ 34,00</span></li>
+            <li><div class="item"><strong>Calabresa acebolada</strong><span>Com pão e vinagrete</span></div><span class="preco">R$ 32,00</span></li>
+          </ul>
+        </div>
+
+        <div class="painel" id="painel-petiscos" role="tabpanel" aria-labelledby="aba-petiscos" hidden>
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Ovo de codorna</strong><span>Na molheira de sempre</span></div><span class="preco">R$ 12,00</span></li>
+            <li><div class="item"><strong>Amendoim</strong><span>Torrado na hora</span></div><span class="preco">R$ 8,00</span></li>
+            <li><div class="item"><strong>Torresmo</strong><span>Crocrante, com limão</span></div><span class="preco">R$ 22,00</span></li>
+          </ul>
+        </div>
+
+        <div class="painel" id="painel-destilados" role="tabpanel" aria-labelledby="aba-destilados" hidden>
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Cachaça</strong><span>Envelhecida e artesanal</span></div><span class="preco">R$ 6,00</span></li>
+            <li><div class="item"><strong>Gin</strong><span>Nacional ou importado</span></div><span class="preco">R$ 16,00</span></li>
+            <li><div class="item"><strong>Vodka</strong><span>Garrafa ou dose</span></div><span class="preco">R$ 10,00</span></li>
+            <li><div class="item"><strong>Whisky</strong><span>Com gelo ou puro</span></div><span class="preco">R$ 18,00</span></li>
+          </ul>
+        </div>
+
+        <div class="painel" id="painel-semacool" role="tabpanel" aria-labelledby="aba-semacool" hidden>
+          <ul class="cardapio-lista">
+            <li><div class="item"><strong>Sucos naturais</strong><span>Laranja, limão, abacaxi</span></div><span class="preco">R$ 10,00</span></li>
+            <li><div class="item"><strong>Refrigerantes</strong><span>Lata ou garrafa</span></div><span class="preco">R$ 6,00</span></li>
+            <li><div class="item"><strong>Água com ou sem gás</strong><span>Gelada, claro</span></div><span class="preco">R$ 5,00</span></li>
+            <li><div class="item"><strong>Café</strong><span>Depois do almoço é de lei</span></div><span class="preco">R$ 5,00</span></li>
+          </ul>
+        </div>
+
+        <p class="cardapio-nota">Preços de referência — cardápio oficial em breve.</p>
+      </div>
+    </section>
+
+    <!-- 5. EVENTOS -->
+    <section class="secao" id="eventos" aria-labelledby="eventos-titulo">
+      <div class="secao-inner">
+        <p class="secao-eyebrow"><span class="ano">1970</span> — agita a vila</p>
+        <h2 class="secao-titulo" id="eventos-titulo">Eventos</h2>
+        <p class="secao-lead">A agenda acontece aqui no bar e no Instagram <a href="https://instagram.com/bardavila.1970" target="_blank" rel="noopener">@bardavila.1970</a>.</p>
+        <!-- Agenda de exemplo — substituir pela agenda real (pendência PLANO.md) -->
+        <ul class="agenda">
+          <li class="agenda-item">
+            <div class="agenda-data" aria-hidden="true"><strong>SÁB</strong><span>19h</span></div>
+            <div class="agenda-info"><strong>Samba na Vila</strong><p>Roda de samba com os músicos do bairro.</p></div>
+            <span class="agenda-tag">Música ao vivo</span>
+          </li>
+          <li class="agenda-item">
+            <div class="agenda-data" aria-hidden="true"><strong>DOM</strong><span>16h</span></div>
+            <div class="agenda-info"><strong>Futebol na TV</strong><p>Jogo do coração com a torcida da vila.</p></div>
+            <span class="agenda-tag">Todo domingo</span>
+          </li>
+          <li class="agenda-item">
+            <div class="agenda-data" aria-hidden="true"><strong>SEX</strong><span>20h</span></div>
+            <div class="agenda-info"><strong>Noite do Clássico</strong><p>Os sucessos dos anos 70 no som do bar.</p></div>
+            <span class="agenda-tag">Toda sexta</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 6. GALERIA -->
+    <section class="secao" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="secao-inner">
+        <p class="secao-eyebrow"><span class="ano">1970</span> — o bar e a comida</p>
+        <h2 class="secao-titulo" id="galeria-titulo">Galeria</h2>
+        <p class="secao-lead">Um pouco do clima do bar — ambiente, comida e os clássicos de boteco. <!-- Fotos ilustrativas (Unsplash) — substituir pelas reais do bar (pendência PLANO.md) --></p>
+        <div class="galeria-grid">
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/clima-bar.jpg" alt="Pessoas conversando à mesa em um bar com luz baixa" width="900" height="1350" loading="lazy">
+          </div>
+            <figcaption>O clima do bar</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/porcoes.jpg" alt="Cesta de batatas fritas ao lado de uma tigela de ketchup" width="900" height="600" loading="lazy">
+          </div>
+            <figcaption>Porções de boteco</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/cerveja-gelada.jpg" alt="Copo de cerveja gelada sobre mesa de madeira" width="900" height="600" loading="lazy">
+          </div>
+            <figcaption>Cerveja gelada</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/futebol-tv.jpg" alt="Grupo de pessoas assistindo a um jogo na TV dentro de um bar" width="900" height="655" loading="lazy">
+          </div>
+            <figcaption>Futebol na TV</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/musica-ao-vivo.jpg" alt="Homem cantando ao microfone com um violão" width="900" height="600" loading="lazy">
+          </div>
+            <figcaption>Música ao vivo</figcaption>
+          </figure>
+          <figure class="galeria-item">
+            <div class="galeria-midia">
+            <img src="docs/fotos/area-externa.jpg" alt="Mesas ao ar livre sob toldos listrados de vermelho" width="900" height="600" loading="lazy">
+          </div>
+            <figcaption>Área externa</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CONTATO / LOCALIZAÇÃO -->
+    <section class="secao" id="contato" aria-labelledby="contato-titulo">
+      <div class="secao-inner">
+        <p class="secao-eyebrow"><span class="ano">1970</span> — apareça</p>
+        <h2 class="secao-titulo" id="contato-titulo">Como chegar</h2>
+
+        <div class="contato-grid">
+          <div class="contato-info">
+            <h3>Endereço</h3>
+            <p class="contato-endereco">Rua Coronel Luís Schimidt, 219<br>Vila das Belezas — São Paulo/SP<br>CEP 05841-130</p>
+
+            <h3>Horários</h3>
+            <!-- Horários a confirmar (pendência PLANO.md) -->
+            <dl class="horarios">
+              <div><dt>Ter a Qui</dt><dd>7h – 23h</dd></div>
+              <div><dt>Sex e Sáb</dt><dd>7h – 22h</dd></div>
+              <div><dt>Dom</dt><dd>7h – 23h</dd></div>
+              <div><dt>Segunda</dt><dd class="fechado">Fechado</dd></div>
+            </dl>
+
+            <h3>Aceitamos</h3>
+            <p class="contato-pagamento">Cartão de crédito · débito · Takeaway</p>
+
+            <div class="contato-acoes">
+              <!-- TODO: substituir pelo WhatsApp oficial (pendência PLANO.md) -->
+              <a class="btn btn-primario" href="#" rel="noopener" aria-disabled="true">WhatsApp — em breve</a>
+              <a class="btn btn-secundario" href="https://instagram.com/bardavila.1970" target="_blank" rel="noopener">Instagram @bardavila.1970</a>
+            </div>
+          </div>
+
+          <div class="contato-mapa">
+            <iframe
+              src="https://maps.google.com/maps?q=-23.644282,-46.740688&z=17&output=embed"
+              title="Mapa com a localização do Bar da Vila 1970"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+            <a class="btn btn-secundario mapa-rota" href="https://www.google.com/maps/dir/?api=1&destination=-23.644282,-46.740688" target="_blank" rel="noopener">Abrir rota no Google Maps</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="rodape-inner">
+      <a class="rodape-marca" href="#hero">
+        <img src="docs/logo-transparente.png" alt="" width="28" height="28">
+        <span>Bar da Vila <strong>1970</strong></span>
+      </a>
+      <p class="rodape-texto">Boteco de vila desde 1970 · Vila das Belezas, São Paulo/SP</p>
+      <nav class="rodape-links" aria-label="Links do rodapé">
+        <a href="#sobre">Sobre</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contato">Contato</a>
+        <a href="https://instagram.com/bardavila.1970" target="_blank" rel="noopener">Instagram</a>
+      </nav>
+      <p class="rodape-creditos">Google 4.8 ★ (52 avaliações) · Cartão aceito · Sem delivery</p>
+      <p class="rodape-fotos">Fotos ilustrativas: <a href="https://unsplash.com" target="_blank" rel="noopener">Unsplash</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
